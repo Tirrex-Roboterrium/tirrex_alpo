@@ -1,0 +1,5 @@
+name: "joystick"
+configuration:
+  type: hj60ss
+records:
+  joy: true

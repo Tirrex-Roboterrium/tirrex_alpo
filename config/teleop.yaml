@@ -1,0 +1,4 @@
+maximal_linear_speed:
+  slow_mode: 1
+  turbo_mode : 2
+#maximal_steering_angle:
