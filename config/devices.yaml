@@ -1,15 +1,15 @@
 remote_controller:
   type: joystick
-  available: true
+  available_mode: simulation
 embedded_controller:
   type: joystick
-  available: false
+  available_mode: live
 lms151:
   type: lidar
-  available: true  
+  available_mode: all
 ublox:
   type: gps
-  available: true  
+  available_mode: all
 xsens:
   type: imu
-  available: true  
+  available_mode: all

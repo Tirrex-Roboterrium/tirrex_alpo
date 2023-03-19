@@ -3,3 +3,5 @@ configuration:
   type: hj60ss
 records:
   joy: true
+bridge:
+  joy: /alpo_bridge/joy
