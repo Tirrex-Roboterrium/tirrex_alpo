@@ -23,11 +23,14 @@ from ament_index_python.packages import get_package_share_directory
 def launch_setup(context, *args, **kwargs):
 
     robot_namespace = "alpo"
+
     demo = "tirrex_alpo"
     demo_timestamp = get_demo_timestamp()
+
     mode = LaunchConfiguration("mode").perform(context)
     record = LaunchConfiguration("record").perform(context)
     demo_config_directory = LaunchConfiguration("demo_config_directory").perform(context)
+
     debug_directory = get_debug_directory(demo, demo_timestamp, record)
     log_directory = get_log_directory(demo, demo_timestamp, record)
 
@@ -49,6 +52,7 @@ def launch_setup(context, *args, **kwargs):
             launch_arguments={
                 "demo": demo,
                 "demo_timestamp": demo_timestamp,
+                "demo_config_directory": demo_config_directory,
                 "mode": mode,
                 "record": record,
                 "robot_namespace": robot_namespace,
