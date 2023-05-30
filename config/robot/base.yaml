@@ -1,8 +1,17 @@
-name: "alpo"
+name: "base"
 configuration:
   type: alpo
   model: fat
-#controller  ???
+# control: not yet implemented
+#   controller_manager:
+#     update_rate: 100
+#     configuration:
+#       pkg: alpo_bringup
+#       file: config/controller_manager.yaml
+#   controller:
+#     configuration:
+#       pkg: alpo_bringup
+#       file: config/mobile_base_controller.yaml
 records:
   joint_states: true
   controller/odom: true
