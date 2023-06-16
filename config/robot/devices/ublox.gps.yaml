@@ -17,7 +17,7 @@ configuration:
   rate: 10
 geometry:
   parent_link: "base_link"
-  xyz: [-0.1 0.0 1.68]
+  xyz: [-0.1, 0.0, 1.68]
 records:
   nmea_sentence: true
   gps_fix: false
