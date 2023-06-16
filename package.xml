@@ -3,18 +3,18 @@
 <package format="3">
   <name>tirrex_alpo</name>
   <version>0.0.0</version>
-  <description>Package with alpo launch files.</description>
+  <description>Package containing alpo demo.</description>
 
   <maintainer email="jean.laneurit@inrae.fr">Jean Laneurit</maintainer>
 
-  <license>TODO</license>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>launch</depend>
   <depend>ament_index_python</depend>
   <depend>tirrex_demo</depend>
-  
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
