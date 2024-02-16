@@ -36,7 +36,6 @@ repositories:
     url: git@gitlab-ssh.irstea.fr:romea_core/romea_localisation_gps.git
     version: devel
 
-
   romea_ros2/interfaces/sensors/romea_gps:
     type: git
     url: git@gitlab-ssh.irstea.fr:romea_ros2/interfaces/sensors/romea_gps.git
@@ -139,10 +138,10 @@ repositories:
     url: git@gitlab-ssh.irstea.fr:romea_ros2/third_party/bluespace_ai_xsens_ros_mti_driver.git
     version: romea
 
-  third_party/sick_ldmrs:
-    type: git
-    url: https://github.com/SICKAG/libsick_ldmrs.git
+  # third_party/sick_ldmrs:
+  #   type: git
+  #   url: https://github.com/SICKAG/libsick_ldmrs.git
 
-  third_party/sick_scan:
-    type: git
-    url: https://github.com/SICKAG/sick_scan_xd
+  # third_party/sick_scan:
+  #   type: git
+  #   url: https://github.com/SICKAG/sick_scan_xd
