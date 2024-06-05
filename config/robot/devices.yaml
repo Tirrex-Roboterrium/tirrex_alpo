@@ -1,13 +1,13 @@
 remote_controller:
   type: joystick
-  available_mode: simulation
-embedded_controller:
-  type: joystick
-  available_mode: live
+  available_mode: all
 lms151:
   type: lidar
-  available_mode: all
-ublox:
+  available_mode: simulation
+# ublox:
+#   type: gps
+#   available_mode: all
+septentrio:
   type: gps
   available_mode: all
 xsens:
